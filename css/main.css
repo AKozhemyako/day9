@@ -1,8 +1,8 @@
 /*Комментарии пишуться в таком стиле обрамленный слешем и между звездочек*/
-/*Это мой первый CSS файлю*/
+/*Это мой первый CSS файл*/
 @import url("color.css");
 
 p {
-	font-size: 150%;
+	font-size: 200%;
 	font-family: Arial, Verdana, Times New Roman;
-}
+} 
