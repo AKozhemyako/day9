@@ -1,11 +1,24 @@
 /*Комментарии пишуться в таком стиле обрамленный слешем и между звездочек*/
 /*Это мой первый CSS файл где я подбираю размер, цвет, и стиль шрифта.*/
-@import url("color.css");
-h1 {
-	font-size: 200%;
-	font-family: sans-serif, Arial, Verdana, Times New Roman;
+@font-face {
+	font-family: carolina;
+	src: url("../font/carolina.woff") format("woff"), url("../font/carolina.woff2") format("woff2");
 }
+
+body {
+	font-size: 250%;
+	text-shadow: 4px 4px 4px #aaa;   	
+	font-family: carolina;
+	text-align: center;
+}
+
+@font-face { 
+  font-family: andada;
+  src: url("../font/andanda.woff2") format("woff2");
+}
+
 p {
-	font-size: 200%;
-	font-family: Arial, Verdana, Times New Roman;
-} 
+    font-family: andada;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}  
